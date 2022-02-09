@@ -1,0 +1,68 @@
+npm init
+npm init -y =>defaut settup
+
+node server.js => run server
+
+
+package.json -->  scripts --> ( pre*** -> name ->post*** )
+
+version(1,0,1) =>version(major,minor,patch)
+npm version patch
+npm version minor
+npm version major
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+npm i debug
+
+file debug.js
+const debug = require("debug")("univers00");
+
+debug("string1");
+
+debug("string2);
+
+to show => DEBUG=univers00 node debug.js
